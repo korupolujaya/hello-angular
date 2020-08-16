@@ -1,0 +1,35 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">FOOD Chunk</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" routerLink="/team-members">Team Members <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Wood Lawn</a></li>
+            </ul>
+          </li>
+          <li><a href="#">June Event</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Catering</a></li>
+          <li><a href="#">Private Events</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu<span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a routerLink="/">Wood Lawn</a></li>
+               <li><a>Glenway</a></li>
+               <li><a>Bond Hill</a></li>
+               <li><a>College Hill</a></li>
+               <li><a>Colerain</a></li>
+             </ul>
+            </li>
+            <button  class="btn btn-lg" #mytag (mouseover)="onmouseOver($event)" (mouseleave)="onmouseLeave($event)" >Order Online</button>
+          </ul>    
+          
+      </div>
+    </div>
+  </nav>
+  
+  
